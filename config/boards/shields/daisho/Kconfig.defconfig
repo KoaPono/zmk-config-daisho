@@ -1,0 +1,6 @@
+if SHIELD_DAISHO
+
+config ZMK_KEYBOARD_NAME
+    default "Daisho"
+
+endif
