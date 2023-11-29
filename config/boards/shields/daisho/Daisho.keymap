@@ -30,6 +30,6 @@
                 &none      &kp LBRC  &kp RBRC  &kp LSHFT  &kp PIPE  &kp N0    &kp N4  &kp N5  &kp N6  &kp EQUAL
                 &none      &kp LBKT  &kp RBKT  &kp COLON  &trans    &trans    &kp N1  &kp N2  &kp N3  &kp DOT
             >;
-        }
+        };
     };
 };
