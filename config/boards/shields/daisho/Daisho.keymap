@@ -18,22 +18,22 @@
             bindings = <
                 &kp Q        &kp W       &kp F       &kp P        &kp B      &kp J          &kp L       &kp U       &kp Y       &kp SQT
                 &mt LCTRL A  &mt LALT R  &mt LGUI S  &mt LSHFT T  &kp G      &kp M          &mt RGUI N  &mt RALT E  &mt RCTRL I &kp O
-                &kp Z        &kp X       &kp C       &kp D        &lt RAISE V    &lt LOWER SPACE    &kp K       &kp H       &kp COMMA   &kp DOT
+                &kp Z        &kp X       &kp C       &kp D        &kp V      &kp SPACE      &kp K       &kp H       &kp COMMA   &kp DOT
             >;
         };
-        system_layer {
-            bindings = <
-                &bt BT_SEL 0  &kp ESC     &kp CAPS  &none       &none   &none   &kp DEL     &kp UP        &kp BSPC      &kp K_PWR
-                &bt BT_SEL 1  &kp RET     &kp TAB   &kp LALT    &none   &none   &kp LEFT    &kp DOWN      &kp RIGHT     &none
-                &bt BT_SEL 2  &kp K_PREV  &kp K_PP  &kp K_NEXT  &trans  &trans  &kp K_MUTE  &kp K_VOL_DN  &kp K_VOL_UP  &bt BT_CLR
-            >;
-        };
-        number_layer {
-            bindings = <
-                &kp GRAVE  &kp LPAR  &kp RPAR  &kp SEMI   &kp BSLH  &kp FSLH  &kp N7  &kp N8  &kp N9  &kp MINUS
-                &none      &kp LBRC  &kp RBRC  &kp LSHFT  &kp PIPE  &kp N0    &kp N4  &kp N5  &kp N6  &kp EQUAL
-                &none      &kp LBKT  &kp RBKT  &kp COLON  &trans    &trans    &kp N1  &kp N2  &kp N3  &kp DOT
-            >;
-        };
+        //system_layer {
+        //    bindings = <
+        //        &bt BT_SEL 0  &kp ESC     &kp CAPS  &none       &none   &none   &kp DEL     &kp UP        &kp BSPC      &kp K_PWR
+        //        &bt BT_SEL 1  &kp RET     &kp TAB   &kp LALT    &none   &none   &kp LEFT    &kp DOWN      &kp RIGHT     &none
+        //        &bt BT_SEL 2  &kp K_PREV  &kp K_PP  &kp K_NEXT  &trans  &trans  &kp K_MUTE  &kp K_VOL_DN  &kp K_VOL_UP  &bt BT_CLR
+        //    >;
+        //};
+        //number_layer {
+        //    bindings = <
+        //        &kp GRAVE  &kp LPAR  &kp RPAR  &kp SEMI   &kp BSLH  &kp FSLH  &kp N7  &kp N8  &kp N9  &kp MINUS
+        //        &none      &kp LBRC  &kp RBRC  &kp LSHFT  &kp PIPE  &kp N0    &kp N4  &kp N5  &kp N6  &kp EQUAL
+        //        &none      &kp LBKT  &kp RBKT  &kp COLON  &trans    &trans    &kp N1  &kp N2  &kp N3  &kp DOT
+        //    >;
+        //};
     };
 };
