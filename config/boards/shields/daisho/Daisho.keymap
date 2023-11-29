@@ -14,7 +14,7 @@
             bindings = <
                 &kp Q        &kp W       &kp F       &kp P        &kp B      &kp J          &kp L       &kp U       &kp Y       &kp SQT
                 &mt LCTRL A  &mt LALT R  &mt LGUI S  &mt LSHFT T  &kp G      &kp M          &mt RGUI N  &mt RALT E  &mt RCTRL I &kp O
-                &kp Z        &kp X       &kp C       &kp D        &lt SYS V  &lt NUM SPACE  &kp K       &kp H       &kp COMMA   &kp DOT
+                &kp Z        &kp X       &kp C       &kp D        &lt 1 V  &lt 2 SPACE  &kp K       &kp H       &kp COMMA   &kp DOT
             >;
         };
         system_layer {
