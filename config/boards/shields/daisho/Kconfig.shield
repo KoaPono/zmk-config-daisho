@@ -1,2 +1,2 @@
 config SHIELD_DAISHO
-    def_bool $(shields_list_contains, daisho)
+    def_bool $(shields_list_contains, Daisho)
