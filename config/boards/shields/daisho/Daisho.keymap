@@ -10,6 +10,10 @@
     tapping-term-ms = <200>;
 };
 
+&mt {
+    tapping-term-ms = <400>;
+}
+
 / { 
     keymap { 
         compatible = "zmk,keymap";
@@ -23,7 +27,7 @@
         };
         system_layer {
            bindings = <
-               &bt BT_SEL 0  &kp ESC     &kp CAPS  &none       &none   &none   &kp DEL     &kp UP        &kp BSPC      &kp K_PWR
+               &bt BT_SEL 0  &kp ESC     &kp CAPS  &none       &bootloader   &none   &kp DEL     &kp UP        &kp BSPC      &kp K_PWR
                &bt BT_SEL 1  &kp RET     &kp TAB   &kp LALT    &none   &none   &kp LEFT    &kp DOWN      &kp RIGHT     &none
                &bt BT_SEL 2  &kp K_PREV  &kp K_PP  &kp K_NEXT  &trans  &trans  &kp K_MUTE  &kp K_VOL_DN  &kp K_VOL_UP  &bt BT_CLR
            >;
